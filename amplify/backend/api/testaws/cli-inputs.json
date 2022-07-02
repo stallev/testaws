@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "testaws",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "D:\\github\\testaws\\amplify\\backend\\api\\testaws\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authtestaws48d59356"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-07-02T17:24:59.386Z",
+        "keyDescription": "myAPIkey"
+      }
+    ]
+  }
+}
